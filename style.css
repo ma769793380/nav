@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    background-color: black;
+}
+.topNavBar {
+    width: 100%;
+    height: 66px;
+}
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial Black';
+}
+.rs {
+    color: #E6686A;
+}
+.card {
+    color: #9A9DA2;
+    margin-left: 4px;
+}
+.topNavBar nav li{
+    float: left;
+    margin:0 18px;
+    font-size: 12px;
+}
+.topNavBar nav li a {
+    padding-bottom: 5px;
+    color: #B7BABE
+}
+.topNavBar nav li a:hover {
+    border-bottom: 2px solid #E06567;
+}
+.logo {
+    display: block;
+    float: left;
+    margin: 21px 0 0 18px;
+}
+.topNavBar nav ul {
+    float: right;
+    margin: 27px 35px 0 0;
+}
